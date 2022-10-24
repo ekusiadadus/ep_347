@@ -9,8 +9,10 @@ void *allocate(int size) {
 
 int main() {
   size_t size = getSize();
+  allocate(size);
 }
 
+// -std=c++23 -O3 -Werror -Wall -Wextra -Wconversion
 //allocate(int):
 //                movsx   rdi, edi
 //                jmp     malloc
