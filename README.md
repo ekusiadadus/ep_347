@@ -2,4 +2,12 @@
 
 https://www.youtube.com/watch?v=rWCvk4KZuV4
 
-<iframe width="800px" height="200px" src="https://compiler-explorer.com/e#g:!((g:!((g:!((h:codeEditor,i:(filename:'1',fontScale:17,fontUsePx:'0',j:1,lang:c%2B%2B,selection:(endColumn:2,endLineNumber:13,positionColumn:2,positionLineNumber:13,selectionStartColumn:2,selectionStartLineNumber:13,startColumn:2,startLineNumber:13),source:'%23include+%3Ccstddef%3E%0A%23include+%3Ccstdlib%3E%0A%0Asize_t+getSize()%3B%0Avoid+*allocate(int+size)+%7B%0A++void+*result+%3D+malloc(size)%3B%0A++return+result%3B%0A%7D%0A%0Aint+main()+%7B%0A++size_t+size+%3D+getSize()%3B%0A++allocate(size)%3B%0A%7D'),l:'5',n:'0',o:'C%2B%2B+source+%231',t:'0')),k:58.99686520376175,l:'4',m:100,n:'0',o:'',s:0,t:'0'),(g:!((g:!((h:compiler,i:(compiler:gsnapshot,filters:(b:'0',binary:'1',commentOnly:'0',demangle:'0',directives:'0',execute:'1',intel:'0',libraryCode:'1',trim:'1'),flagsViewOpen:'1',fontScale:17,fontUsePx:'0',j:1,lang:c%2B%2B,libs:!((name:fmt,ver:'700')),options:'-std%3Dc%2B%2B23+-O3+-Werror+-Wall+-Wextra+-Wconversion',selection:(endColumn:1,endLineNumber:1,positionColumn:1,positionLineNumber:1,selectionStartColumn:1,selectionStartLineNumber:1,startColumn:1,startLineNumber:1),source:1),l:'5',n:'0',o:'+x86-64+gcc+(trunk)+(Editor+%231)',t:'0')),header:(),k:48.651471984805326,l:'4',m:43.70622543693041,n:'0',o:'',s:0,t:'0'),(g:!((h:output,i:(editorid:1,fontScale:14,fontUsePx:'0',j:1,wrap:'1'),l:'5',n:'0',o:'Output+of+x86-64+gcc+(trunk)+(Compiler+%231)',t:'0')),header:(),l:'4',m:17.859650495801517,n:'0',o:'',s:0,t:'0'),(g:!((h:executor,i:(argsPanelShown:'1',compilationPanelShown:'1',compiler:gsnapshot,compilerOutShown:'1',execArgs:'',execStdin:'',fontScale:17,fontUsePx:'0',j:1,lang:c%2B%2B,libs:!((name:fmt,ver:'700')),options:'-std%3Dc%2B%2B20+-Wpedantic+-Wall+-Wextra+-Wconversion+-O3+-fsanitize%3Daddress,undefined',source:1,stdinPanelShown:'1',tree:'1',wrap:'1'),l:'5',n:'0',o:'Executor+x86-64+gcc+(trunk)+(C%2B%2B,+Editor+%231)',t:'0')),header:(),l:'4',m:38.43412406726807,n:'0',o:'',s:0,t:'0')),k:41.00313479623825,l:'3',n:'0',o:'',t:'0')),l:'2',n:'0',o:'',t:'0')),version:4"></iframe>
+https://compiler-explorer.com/z/76G1bnsE4
+
+## A heap-based buffer overflow can be triggered by a malformed exFAT USB flash drive.
+
+```text
+size_t-to-int vulnerability in exFAT leads to memory corruption via malformed USB flash drives
+```
+
+https://hackerone.com/reports/1340942
